@@ -9,7 +9,7 @@ function Navbar() {
     <header className='navBar'>
     <nav className="navbar">
       <div className="logo">Glow Herb</div>
-      <ul className={`nav-links $ {menuOpen ? 'open' : ''}`} >
+      <ul className={`nav-links $ {menuOpen ? 'open' : 'navbar'}`} >
         <li><a href="#about">About</a></li>
         <li><a href="#benefits">Benefits</a></li>
         <li><a href="#testimonials">Testimonials</a></li>
